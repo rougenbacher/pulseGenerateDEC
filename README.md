@@ -47,15 +47,24 @@ pip install -r requirements.txt
 
 ### 3. Configure Environment Variables
 
-1. Copy the example environment file:
+1. Create a `.env` file in the project root directory:
    ```bash
-   cp .env.example .env
+   touch .env
    ```
 
-2. Edit the `.env` file and add your credentials:
+2. Add your credentials to the `.env` file:
    ```
    API_KEY=your_actual_api_key_here
    ORG_ID=your_actual_organization_id_here
+   ```
+
+   **Required Variables:**
+   - `API_KEY`: Your NEAT Pulse API key with appropriate permissions
+   - `ORG_ID`: Your NEAT Pulse organization ID
+
+   **Note:** If a `.env.example` file exists, you can copy it instead:
+   ```bash
+   cp .env.example .env
    ```
 
 ### 4. Run the Script
