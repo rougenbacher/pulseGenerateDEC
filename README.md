@@ -63,8 +63,7 @@ The script will:
 2. Fetch all rooms in your organization
 3. Generate device enrollment codes for each room
 4. Export results to a CSV file:
-   - `neat_device_enrolllment_codes.csv` (original script)
-   - `neat_device_enrollment_codes_simple.csv` (simplified script)
+   - `neat_device_enrollment_codes_simple.csv`
 
 ## CSV Output Format
 
